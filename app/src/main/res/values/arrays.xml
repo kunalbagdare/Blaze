@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fontList">
+        <item>Default</item>
+        <item>Small</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="fontListValues">
+        <item>5</item>
+        <item>2</item>
+        <item>8</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946541711545",
+    "firebase_url": "https://uptransfer-e6655.firebaseio.com",
+    "project_id": "uptransfer-e6655",
+    "storage_bucket": "uptransfer-e6655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946541711545:android:7289691d1b7bc2b2688b68",
+        "android_client_info": {
+          "package_name": "com.example.android.uptransfer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946541711545-5841c3nq5sk899uvfpf654iknfiv030c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.uptransfer",
+            "certificate_hash": "bca8120cd0a555746cb43ad6cc7f630249e24cbd"
+          }
+        },
+        {
+          "client_id": "946541711545-co0l95mh9aaeovvp4lcqiql2lna2ja78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLcuPAGIL1rUgtYSnGhQ_mdoUCP1burw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946541711545-co0l95mh9aaeovvp4lcqiql2lna2ja78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

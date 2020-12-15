@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/settings_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/help_img"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"/>
+
+
+    <TextView
+        android:id="@+id/help_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="@color/server_chat"
+        android:text=" Note- The default password for Server is default. " />
+
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text=" Kindly report any error if found." />
+
+
+
+</LinearLayout>

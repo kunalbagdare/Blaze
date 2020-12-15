@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    tools:context=".ServerActivity">
+
+    <include
+        android:id="@+id/settings_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <ImageView
+        android:id="@+id/server_img"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pass_screen"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/login_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center_horizontal"
+        android:text="Manage Password of Server for Authentication"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:padding="15dp"
+        android:textColor="@color/back_color"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="120dp"
+        android:text="Change Password" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:padding="16dp"
+        android:textColor="@color/back_color"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="120dp"
+        android:text="Forgot Password" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="custom_category"
+        app:title="Customization">
+
+        <ListPreference
+            android:key="key_font"
+            android:title="Font"
+            android:summary="Select Font"
+            android:entries="@array/fontList"
+            android:entryValues="@array/fontListValues"
+            />
+
+        <SwitchPreference
+            android:key="enable_darkMode"
+            android:title="Dark Mode (Testing)"
+        />
+
+       </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Server"
+        app:key="server_category">
+
+        <Preference
+            app:title="Server Management"
+            app:key="server">
+
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.android.uptransfer"
+            android:targetClass="com.example.android.uptransfer.ServerActivity"
+            />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

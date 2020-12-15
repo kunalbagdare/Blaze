@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="closecolor">#2653d9</color>
+    <color name="disablebutton">#999999</color>
+    <color name="themecolor">#297EFF</color>
+    <color name="themecolorlight">#458cf7</color>
+    <color name="tab_color">#f0f7ff</color>
+    <color name="server_chat">#f1234f</color>
+    <color name="date_color">#f7faff</color>
+    <color name="back_color">#ffffff</color>
+</resources>
